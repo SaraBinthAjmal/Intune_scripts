@@ -1,5 +1,3 @@
-# Intune scripts for Endpoint
-
 ## Prerequisites
 1.	Remote Management:
     o	Ensure WinRM is enabled on the endpoints.
@@ -15,4 +13,3 @@ Explanation
 3.	Get-SystemInfo Function: Retrieves system information using WMI.
 4.	Install-Updates Function: Uses the Install-WindowsUpdate cmdlet (from the PSWindowsUpdate module) to install updates and reboot if necessary.
 5.	Invoke-Command: Executes scripts remotely on the specified endpoints.
-
