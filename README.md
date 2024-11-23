@@ -9,7 +9,7 @@
 3.	Administrator Rights:
     o	Run the script with administrative privileges.
 
-Explanation
+##Explanation
 1.	Endpoint List: Replace $endpoints with your endpoint names or IP addresses.
 2.	Credential Security: The script uses Get-Credential for secure remote authentication.
 3.	Get-SystemInfo Function: Retrieves system information using WMI.
